@@ -1,6 +1,6 @@
 # Laboratorio1ED
 
-### Estudiante: Valentina Flórez
+*Estudiante:* Valentina Flórez
 
 ## Descripción
 Este repositorio presenta la solución al problema planteado en clase para el laboratorio #1 de Estructuras de Datos y Laboratorio.
