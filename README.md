@@ -7,7 +7,7 @@ Este repositorio presenta la solución al problema planteado en clase para el la
 - Se genera la matriz de `100.000 × 100.000`.
 - Se generan los datos por bloques de 1.000 filas.
 - Se convierten los valores `0` y `1` a bytes para poder escribirlos en el archivo.
-- Se agregar el carácter `|` al final de cada fila.
+- Se agrega el carácter `|` al final de cada fila.
 - Se guarda la matriz completa en `matriz.txt`.
 - Se guarda la primera fila de la matriz en `primera_fila.txt`.
 - Se verifica que la matriz sea válida (tamaño y elementos).
