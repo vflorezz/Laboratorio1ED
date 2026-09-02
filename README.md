@@ -22,10 +22,10 @@ El código debe resolver los siguientes problemas planteados:
 
 ## Tecnologías y herramientas utilizadas
 
-- **Python:** lenguaje utilizado para desarrollar el programa.
-- **NumPy:** utilizado para generar y manejar los datos de la matriz.
-- **Time:** utilizado para medir el tiempo de ejecución del programa.
-- **OS:** utilizado para consultar el tamaño y la ubicación de los archivos generados.
+- **Python:** Lenguaje utilizado para desarrollar el programa.
+- **NumPy:** Utilizado para generar y manejar los datos de la matriz.
+- **Time:** Utilizado para medir el tiempo de ejecución del programa.
+- **OS:** Utilizado para consultar el tamaño y la ubicación de los archivos generados.
 
 ## Archivos del Repositorio
 
