@@ -59,7 +59,7 @@ with open(NOMBRE_ARCHIVO, "wb") as archivo:   # Abrimos el archivo (matriz.txt) 
 BYTES_POR_FILA = COLUMNAS + 1    # Es la cantidad de bytes por fila (100.000 + 1)
  
 # Primero, se verifica que el archivo de la matriz tenga el tamaño que debería tener
-tamaño_esperado = FILAS * BYTES_POR_FILA                         # La matriz debería tener un tamaño de 100.000 filas x 100.001 columnas = 10.000.100.000 bytes 
+tamaño_esperado = FILAS * BYTES_POR_FILA                         # El tamaño que se espera en total 
 tamaño_real_verificacion = os.path.getsize(NOMBRE_ARCHIVO)       # Es el tamaño del archivo
 verificacion_tamaño_ok = (tamaño_esperado == tamaño_real_verificacion)  # Si los tamaños coinciden, entonces el tamaño de la matriz es correcto
  
