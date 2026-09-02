@@ -86,7 +86,7 @@ if verificacion_tamaño_ok:
  
             tabla = np.frombuffer(bytes_bloque, dtype=np.uint8).reshape(n_filas_v, BYTES_POR_FILA) # Convierte los bytes que se acaban de leer y los organiza en forma de una tabla
 
-            separadores = tabla[:, -1]       # Se toman todas las filas de la tabla menos la última columna (|)
+            separadores = tabla[:, -1]       # Se toma la última columna de todas las filas, donde está el separador |
             filas_con_separador_malo = np.where(separadores != ord("|"))[0]     # Se buscan las filas que no tienen | al final con su código de carácter (124)
 
             # Se recorren las filas malas y muestra cuales tienen el error
