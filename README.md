@@ -13,6 +13,6 @@ Este repositorio presenta la solución al problema planteado en clase para el la
 - Se verifica que la matriz sea válida (tamaño y elementos).
 - Se muestra información sobre el tiempo que tardó el proceso y el tamaño de los archivos generados.
 
-Se decidió manejar bloques de 1.000 filas x 100.001 columnas porque la matriz en total pesa aproximadamente 10 GB (9.31 GB), de manera que, realizándolo de esta forma, se controla mejor el uso de memoria. Por otra parte, se agrega una columna extra, ya que va a ser ocupada por un carácter que ayudara a indicar el fin de cada fila de la matriz.
+Se decidió manejar bloques de 1.000 filas x 100.001 columnas porque la matriz en total pesa aproximadamente 10 GB (9.31 GB), de manera que, realizándolo de esta forma, se controla mejor el uso de memoria. Por otra parte, se agrega una columna extra, ya que va a ser ocupada por un carácter que ayudará a indicar el fin de cada fila de la matriz.
 
 ## Estudiante: Valentina Flórez Acosta
