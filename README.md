@@ -1,4 +1,18 @@
 # Laboratorio1ED
 Este repositorio presenta la solución al problema planteado en clase para el laboratorio #1 de Estructuras de Datos y Laboratorio.
 
-Estudiante: Valentina Flórez Acosta
+## Archivos del Repositorio
+
+### `MatrizLab.py`
+- Se genera la matriz de `100.000 × 100.000`.
+- Se generan los datos por bloques de 1.000 filas.
+- Se convierten los valores `0` y `1` a bytes para poder escribirlos en el archivo.
+- Se agregar el carácter `|` al final de cada fila.
+- Se guarda la matriz completa en `matriz.txt`.
+- Se guarda la primera fila de la matriz en `primera_fila.txt`.
+- Se verifica que la matriz sea válida (tamaño y elementos).
+- Se muestra información sobre el tiempo que tardó el proceso y el tamaño de los archivos generados.
+
+Se decidió manejar bloques de 1000 filas x 100.000 + 1 columnas porque la matriz en total pesa aproximadamente 10GB (9.31 GB), de manera que, realizándolo de esta forma, se controla mejor el uso de memoria. Por otra parte, se agrega una columna extra, ya que va a ser ocupada por un carácter que ayudara a indicar el fin de cada fila de la matriz.
+
+## Estudiante: Valentina Flórez Acosta
