@@ -28,7 +28,7 @@ with open(NOMBRE_ARCHIVO, "wb") as archivo:   # Abrimos el archivo (matriz.txt) 
     primera_fila_guardada = False    # Se crea una variable booleana para saber si ya se guardó la primera fila. Se inicializa en False porque al inicio no se ha guardado nada en esa fila
 
     for inicio in range(0, FILAS, TAM_BLOQUE): # la variable inicio indica donde comienza cada bloque
-        # El for comienza en cero (inicio = 0), va hasta FILAS (100.000) y el incremento es del tamaño del bloque (1000), o sea va de mil en mil. Va hasta la 99.999 (porque se incluyó el cero). Inicio va 0 - 1000 - 2000 ...
+        # El for comienza en cero (inicio = 0), va hasta FILAS (100.000) y el incremento es del tamaño del bloque (1000), o sea va de mil en mil. Inicio va 0 - 1000 - 2000 ...
 
 
         fin = min(inicio + TAM_BLOQUE, FILAS)  # Aquí, se calcula dónde termina el bloque, se usa min() para no pasarse del bloque (si el num de filas no fuera divisible entre 1000). Cuando inicio es 99000 y se le suma el tamaño del bloque da justo 100.000
@@ -77,7 +77,7 @@ if verificacion_tamaño_ok:
     with open(NOMBRE_ARCHIVO, "rb") as archivo_verificacion:          # Se abre de nuevo el archivo (matriz.txt) y lo vamos a leer como bytes
  
         for inicio_v in range(0, FILAS, TAM_BLOQUE):    # Se crea un ciclo for que va a ayudar a leer y revisar los bloques
-            # El for comienza en cero (inicio = 0), va hasta FILAS (100.000) y el incremento es del tamaño del bloque (1000), o sea va de mil en mil. Va hasta la 99.999 (porque se incluyó el cero). Inicio va 0 - 1000 - 2000 ...
+            # El for comienza en cero (inicio = 0), va hasta FILAS (100.000) y el incremento es del tamaño del bloque (1000), o sea va de mil en mil. Inicio va 0 - 1000 - 2000 ...
             
             fin_v = min(inicio_v + TAM_BLOQUE, FILAS)    # Aquí, se calcula dónde termina el bloque, se usa min() para no pasarse del bloque (si el num de filas no fuera divisible entre 1000). Cuando inicio es 99000 y se le suma el tamaño del bloque da justo 100.000
             n_filas_v = fin_v - inicio_v                 # Cantidad de filas del bloque actual
